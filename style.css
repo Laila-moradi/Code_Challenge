@@ -221,4 +221,31 @@ form p a{
  color: cornsilk;
 }
 
+/*fixed image =============================================================== */
+.stable-image{
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(#0b317e8f, #0b317e8f), url(images/report3.jpg);
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
+.fa{
+    font-size:55px;
+    margin-bottom: 10px;
+}
+
+.pic{
+    display: block;
+    text-align: center;
+    margin:50px 550px;
+    color: white;
+}
+.pic2 .video{
+    color: white;
+}
