@@ -125,16 +125,6 @@ form p a{
     cursor: pointer;
 }
 
-/* .next{
-    flex-basis: 30%;
-    height: 40px;
-    border-radius: 20px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    background-color: #3c00a0;
-    color: white;
-} */
 
 
 /* Navbar ============================== Home page ==================================== */
@@ -156,9 +146,9 @@ form p a{
     border-radius: 30px;
 }
 
-/* .navbar{
-    background-color: #3A98B9;
-} */
+.navbar{
+    background-color: #212A3E;
+}
 
 .navbar .navbar-brand{
     color: white;
@@ -248,4 +238,14 @@ form p a{
 }
 .pic2 .video{
     color: white;
+}
+
+/*footer====================================================== */
+.remove-underline{
+    text-decoration: none;
+    color: black;
+}
+
+.remove-underline:hover{
+    text-decoration: none;
 }
